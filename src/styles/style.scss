@@ -75,6 +75,22 @@
   box-sizing: border-box;
   background-color: #6527d9;
   border-radius: 12px;
+  position: relative;
+
+  &-background {
+    width: 388px;
+    height: 388px;
+    opacity: 0.1;
+    border-radius: 100%;
+    position: absolute;
+    top: 100px;
+    right: 80px;
+    background: linear-gradient(
+      41.63deg,
+      #ffffff 8.13%,
+      rgba(255, 255, 255, 0) 84.6%
+    );
+  }
 
   &-btns {
     display: flex;
@@ -260,6 +276,10 @@
   .feedbacks {
     padding: 20px 16px;
     min-height: auto;
+
+    &-background {
+      display: none;
+    }
   }
 
   .feedback {
