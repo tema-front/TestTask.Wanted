@@ -1,0 +1,347 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(../font/ProximaNova-Light.ttf) format("ttf"),
+    url(../font/ProximaNova-Light.woff) format("woff"),
+    url(../font/ProximaNova-Light.woff2) format("woff2"),
+    url(../font/ProximaNova-Light.eot) format("eot"),
+    url(../font/ProximaNova-Light.otf) format("otf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(../font/ProximaNova-Regular.ttf) format("ttf"),
+    url(../font/ProximaNova-Regular.woff) format("woff"),
+    url(../font/ProximaNova-Regular.woff2) format("woff2"),
+    url(../font/ProximaNova-Regular.eot) format("eot"),
+    url(../font/ProximaNova-Regular.otf) format("otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(../font/ProximaNova-Semibold.ttf) format("ttf"),
+    url(../font/ProximaNova-Semibold.woff) format("woff"),
+    url(../font/ProximaNova-Semibold.woff2) format("woff2"),
+    url(../font/ProximaNova-Semibold.eot) format("eot"),
+    url(../font/ProximaNova-Semibold.otf) format("otf");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@mixin font-stack($family: Proxima Nova, $weight: normal, $style: normal) {
+  font-family: $family;
+  font-weight: $weight;
+  font-style: $style;
+}
+
+.content {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  padding: 12px 12px 60px 12px;
+
+  &-more {
+    @include font-stack(Proxima Nova);
+    font-size: 24px;
+    line-height: 32px;
+    color: #6527d9;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 60px auto 0;
+    display: block;
+    position: relative;
+
+    &-tick {
+      margin: 0 0 0 8px;
+    }
+  }
+}
+
+.feedbacks {
+  max-width: 1416px;
+  min-height: 700px;
+  margin: 0 auto;
+  padding: 184px 80px;
+  box-sizing: border-box;
+  background-color: #6527d9;
+  border-radius: 12px;
+
+  &-btns {
+    display: flex;
+    bottom: 0px;
+    right: 0px;
+
+    &-item {
+      background-color: #7444da;
+      width: 48px;
+      height: 48px;
+      border-radius: 32px;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      &:first-child {
+        margin: 0 20px 0 0;
+        & > svg {
+          transform: rotate(180deg);
+        }
+      }
+
+      &:hover {
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05),
+          0px 40px 40px rgba(10, 0, 32, 0.08);
+      }
+
+      &:active {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08), 0px 0px 0px #e6e6e6,
+          0px 1px 5px rgba(99, 114, 130, 0.15);
+      }
+
+      &:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08), 0px 0px 0px #e6e6e6,
+          0px 1px 5px rgba(99, 114, 130, 0.15);
+      }
+    }
+  }
+}
+
+.disable {
+  opacity: 0.5;
+}
+
+.feedback {
+  &-txt {
+    @include font-stack();
+    font-size: 38px;
+    line-height: 120%;
+    letter-spacing: 0.8px;
+    color: #ffffff;
+
+    max-width: 824px;
+    margin: 0 0 32px 0;
+  }
+
+  &-info {
+    &-wrp {
+      margin: 32px 0 0 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-name {
+      @include font-stack(Proxima Nova, 600);
+      font-size: 24px;
+      line-height: 31.2px;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+    }
+
+    &-username {
+      @include font-stack(Proxima Nova, 300);
+      font-size: 24px;
+      line-height: 31.2px;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+    }
+  }
+}
+
+.innovations-wrp {
+  max-width: 1416px;
+  margin: 0 auto;
+  padding: 80px 0 0 0;
+}
+
+.innovations {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &-title {
+    @include font-stack();
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #262626;
+    margin: 0 auto 80px;
+  }
+
+  &-item {
+    display: block;
+    text-decoration: none;
+    box-sizing: border-box;
+    max-width: 464px;
+    width: 30.23vw;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 12px 12px 20px 12px;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &-wrp {
+      margin: 12px 0 0 0;
+
+      &:first-child {
+        margin: 0;
+      }
+
+      &:nth-child(2) {
+        margin: 0;
+      }
+
+      &:nth-child(3) {
+        margin: 0;
+      }
+    }
+
+    &-title {
+      @include font-stack(Proxima Nova, 300);
+      font-size: 24px;
+      line-height: 130%;
+      letter-spacing: 0.2px;
+      color: #262626;
+      text-align: center;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 384px;
+      width: 100%;
+      min-height: 111px;
+      margin: 21px auto 0;
+    }
+
+    &-preview {
+      max-width: 440px;
+      max-height: 486px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media (max-width: 320px) {
+  .carousel {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .content {
+    padding: 10px 12px 40px 12px;
+
+    &-more {
+      margin: 24px auto 0;
+      font-size: 18px;
+      line-height: 120%;
+    }
+  }
+
+  .feedbacks {
+    padding: 20px 16px;
+    min-height: auto;
+  }
+
+  .feedback {
+    &-txt {
+      @include font-stack(Proxima Nova, 300);
+      font-size: 24px;
+      line-height: 130%;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+
+      min-height: 351px;
+      margin: 0 0 25px 0;
+    }
+
+    &-info {
+      display: flex;
+      flex-direction: column;
+      margin: 0 0 16px 0;
+
+      &-name {
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0.2px;
+        color: #ffffff;
+      }
+
+      &-username {
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0.2px;
+        color: #ffffff;
+
+        &-comma {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .innovations {
+    flex-direction: column;
+    align-items: center;
+
+    &-wrp {
+      padding: 32px 0 0 0;
+    }
+
+    &-title {
+      margin: 0 0 25px 0;
+      font-size: 24px;
+      line-height: 130%;
+      text-align: center;
+      letter-spacing: 0.2px;
+    }
+
+    &-item {
+      width: 100%;
+      padding: 8px 8px 12px 8px;
+
+      &-wrp {
+        margin: 12px 0 0 0;
+
+        &:first-child {
+          margin: 0;
+        }
+
+        &:nth-child(2) {
+          margin: 12px 0 0 0;
+        }
+
+        &:nth-child(3) {
+          margin: 12px 0 0 0;
+        }
+      }
+
+      &-title {
+        @include font-stack(Proxima Nova);
+        font-size: 18px;
+        line-height: 120%;
+        color: #262626;
+        opacity: 0.8;
+      }
+    }
+  }
+}
