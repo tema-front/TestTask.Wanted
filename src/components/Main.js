@@ -1,7 +1,7 @@
 import { useState } from "react"
-import { Feedbacks } from "../Feedbacks"
-import { Innovations } from "../Innovations"
-import otherInnovation from '../../data/blog_posts.json'
+import { Feedbacks } from "./Feedbacks.js"
+import { Innovations } from "./Innovations.js"
+import otherInnovation from '../data/blog_posts.json'
 
 export const Main = () => {
     const [moreInnovation, setMoreInnovation] = useState(false);

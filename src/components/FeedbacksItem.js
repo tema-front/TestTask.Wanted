@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import feedbackDatas from '../../data/feedback_data.json'
+import feedbackDatas from '../data/feedback_data.json'
 
 // Отображение комментариев через карусель Bootstrap
 export const FeedbacksItem = () => {
