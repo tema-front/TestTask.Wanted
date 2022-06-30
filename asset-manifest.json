@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/TestTask.Wanted/static/css/main.74cdc0db.css",
+    "main.js": "/TestTask.Wanted/static/js/main.4dc9bed9.js",
+    "static/media/img2.png": "/TestTask.Wanted/static/media/img2.27a5cf8350f8d1fb71e0.png",
+    "static/media/img1.png": "/TestTask.Wanted/static/media/img1.548a49308bf008a0e295.png",
+    "static/media/img3.png": "/TestTask.Wanted/static/media/img3.78ff462aaf6a24672825.png",
+    "static/media/ProximaNova-Light.eot": "/TestTask.Wanted/static/media/ProximaNova-Light.7418ee13669feb8d2651.eot",
+    "static/media/ProximaNova-Light.ttf": "/TestTask.Wanted/static/media/ProximaNova-Light.fab0e136e09852983dfd.ttf",
+    "static/media/ProximaNova-Semibold.eot": "/TestTask.Wanted/static/media/ProximaNova-Semibold.63192779249e96c89f98.eot",
+    "static/media/ProximaNova-Regular.eot": "/TestTask.Wanted/static/media/ProximaNova-Regular.6debc55d6908a9061fc3.eot",
+    "static/media/ProximaNova-Semibold.ttf": "/TestTask.Wanted/static/media/ProximaNova-Semibold.bb7b2b16418ed34636b4.ttf",
+    "static/media/ProximaNova-Regular.ttf": "/TestTask.Wanted/static/media/ProximaNova-Regular.bbb7cd212c2cb7c21c9e.ttf",
+    "static/media/ProximaNova-Regular.otf": "/TestTask.Wanted/static/media/ProximaNova-Regular.ea03f826587148b7335d.otf",
+    "static/media/ProximaNova-Light.otf": "/TestTask.Wanted/static/media/ProximaNova-Light.b8f9455227f8fd5d6af5.otf",
+    "static/media/ProximaNova-Semibold.otf": "/TestTask.Wanted/static/media/ProximaNova-Semibold.815823c606e8fb5e1338.otf",
+    "static/media/post3.png": "/TestTask.Wanted/static/media/post3.5c9e1d0b22d1c92f3eb5.png",
+    "static/media/ProximaNova-Light.woff": "/TestTask.Wanted/static/media/ProximaNova-Light.25ab8f910a5ac224b861.woff",
+    "static/media/ProximaNova-Regular.woff": "/TestTask.Wanted/static/media/ProximaNova-Regular.9a0495ea541519d7958e.woff",
+    "static/media/ProximaNova-Semibold.woff": "/TestTask.Wanted/static/media/ProximaNova-Semibold.87afc0850cb06b7ef731.woff",
+    "static/media/ProximaNova-Light.woff2": "/TestTask.Wanted/static/media/ProximaNova-Light.360ae3aa937179f9f63b.woff2",
+    "static/media/ProximaNova-Regular.woff2": "/TestTask.Wanted/static/media/ProximaNova-Regular.cf0a0dea3b718355f911.woff2",
+    "static/media/ProximaNova-Semibold.woff2": "/TestTask.Wanted/static/media/ProximaNova-Semibold.9a32eb4437f520ae4d51.woff2",
+    "index.html": "/TestTask.Wanted/index.html",
+    "main.74cdc0db.css.map": "/TestTask.Wanted/static/css/main.74cdc0db.css.map",
+    "main.4dc9bed9.js.map": "/TestTask.Wanted/static/js/main.4dc9bed9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74cdc0db.css",
+    "static/js/main.4dc9bed9.js"
+  ]
+}
